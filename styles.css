@@ -500,4 +500,20 @@ input:focus {
     .instructor-content {
         padding: 1.5rem;
     }
+}
+
+.error-message {
+    color: #E53E3E;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.error-input {
+    border-color: #E53E3E;
+}
+
+.error-input:focus {
+    border-color: #E53E3E;
+    box-shadow: 0 0 0 1px #E53E3E;
 } 
